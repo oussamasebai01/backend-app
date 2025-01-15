@@ -1,0 +1,44 @@
+{
+  "name": "stock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "jest",
+    "version:none": "npm version none",
+    "version:major": "npm version major",
+    "version:minor": "npm version minor",
+    "version:patch": "npm version patch",
+    "build:docker": "docker build -t justelyes/expressjs:${npm_package_version} ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mailgun-js": "^0.22.0",
+    "math": "^0.0.3",
+    "mongoose": "^8.3.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.0",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.24.7",
+    "@types/mailgun-js": "^0.22.18",
+    "babel-jest": "^29.7.0",
+    "babel-preset-vite": "^1.1.3",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
