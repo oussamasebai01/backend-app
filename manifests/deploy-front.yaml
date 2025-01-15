@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: reactjs-container
-          image: oussamasebai/front-app:1
+          image: oussamasebai/front-app:2
           ports:
             - containerPort: 80
 ---
