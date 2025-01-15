@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: backend-app
-        image: justelyes/expressjs:1.0.0
+        image: oussamasebai/backend-app:13
         ports:
         - containerPort: 4000
 ---

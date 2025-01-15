@@ -7,7 +7,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://gitlab.com/pfe1384022/devops.git
+    repoURL: https://github.com/oussamasebai01/backend-app.git
     targetRevision: main
     path: manifests
   destination:
